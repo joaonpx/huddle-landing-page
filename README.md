@@ -18,8 +18,3 @@ This is a solution to the [Huddle landing page with single introductory section 
 <!-- ## 🔍 Demo
 
 - **[](https://)** -->
-
-## Author
-
-- Website - [Npx](https://npx.dev.br)
-- Frontend Mentor - [@npx08](https://www.frontendmentor.io/profile/joaonpx)
