@@ -1,0 +1,108 @@
+/* ------------- general --------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%);
+
+  font-size: 62.5%; /* 10px = 1rem */
+}
+
+body {
+  height: 100vh;
+
+  padding: 3.5rem;
+
+  background: url(./images/bg-mobile.svg) var(--violet) no-repeat;
+  background-size: 100%;
+  color: #fff;
+
+  font-family: "Poppins", sans-serif;
+}
+
+header,
+.hero-container {
+  margin-bottom: 5rem;
+}
+
+/* ------------- header --------------- */
+header .logo {
+  width: 13rem;
+}
+
+/* ------------- main --------------- */
+main {
+  text-align: center;
+}
+
+/* ------------- main-hero --------------- */
+main .hero-image {
+  width: 99%;
+}
+
+/* ------------- main-info --------------- */
+main .info-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 2rem;
+
+  margin-bottom: 6rem;
+}
+
+main .info-container h1 {
+  font-size: 2.4rem;
+}
+
+main .info-container p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+main .info-container a {
+  padding: 0.8em 7.5rem;
+
+  background-color: #fff;
+  color: var(--violet);
+
+  border-radius: 2.5rem;
+
+  font-size: 1.3rem;
+  text-decoration: none;
+
+  transition: all 200ms;
+}
+
+main .info-container a:hover {
+  background-color: var(--soft-magenta);
+  color: #fff;
+}
+
+/* ------------- footer --------------- */
+footer .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+
+  list-style: none;
+}
+
+footer .social-icons .social-icon svg {
+  border: 1px #fff solid;
+  border-radius: 2rem;
+
+  padding: 0.5rem;
+
+  transition: all 200ms;
+}
+
+footer .social-icons .social-icon svg:hover {
+  border: 1px var(--soft-magenta) solid;
+  stroke: var(--soft-magenta);
+}
