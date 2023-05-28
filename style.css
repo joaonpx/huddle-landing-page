@@ -51,8 +51,6 @@ main .info-container {
   flex-direction: column;
 
   gap: 2rem;
-
-  margin-bottom: 6rem;
 }
 
 main .info-container h1 {
@@ -85,6 +83,10 @@ main .info-container a:hover {
 }
 
 /* ------------- footer --------------- */
+footer {
+  padding-block: 6rem 3rem;
+}
+
 footer .social-icons {
   display: flex;
   justify-content: center;
