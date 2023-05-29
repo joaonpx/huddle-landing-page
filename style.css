@@ -108,3 +108,53 @@ footer .social-icons .social-icon svg:hover {
   border: 1px var(--soft-magenta) solid;
   stroke: var(--soft-magenta);
 }
+
+@media (min-width: 1024px) {
+  /* ------------- general --------------- */
+  body {
+    height: 100vh;
+    padding: 6.5rem 9.5rem;
+
+    background-image: url("./images/bg-desktop.svg");
+  }
+
+  /* ------------- header --------------- */
+  header {
+    margin-bottom: 10rem;
+  }
+
+  header .logo {
+    width: 23rem;
+  }
+
+  /* ------------- main --------------- */
+  main {
+    display: flex;
+
+    gap: 5rem;
+
+    text-align: initial;
+  }
+
+  main .info-container {
+    width: 40%;
+
+    display: flex;
+    align-items: initial;
+
+    gap: 2rem;
+  }
+
+  main .info-container h1 {
+    font-size: 4rem;
+  }
+
+  .hero-container {
+    margin-bottom: 0;
+  }
+
+  /* ------------- footer --------------- */
+  footer .social-icons {
+    justify-content: flex-end;
+  }
+}
